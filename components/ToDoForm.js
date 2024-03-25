@@ -3,7 +3,7 @@ import { StyleSheet, View, TextInput, Button } from "react-native";
 
 const ToDoForm = ( { addTask } ) => {
     const [taskText, setTaskText] = useState('');
-
+    
     return (
         <View style={styles.form}>
             <TextInput
